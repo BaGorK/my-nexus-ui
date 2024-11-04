@@ -40,8 +40,8 @@ export default function App() {
         <div className="flex flex-1 flex-col">
           <div className="bg-primary flex w-full items-center gap-5 self-start p-3">
             <Button
-              iconOpen={<FiAlignJustify className="size-6" />}
-              iconClose={<IoMdClose className="size-6" />}
+              iconOpen={<IoMdClose className="size-6" />}
+              iconClose={<FiAlignJustify className="size-6" />}
               onClick={handleOpen}
               isOpen={isOpen}
             />
